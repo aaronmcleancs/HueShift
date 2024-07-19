@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		637A80D929C1BCCA00B5D1FF /* HueShiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A80D829C1BCCA00B5D1FF /* HueShiftApp.swift */; };
+		637A80DB29C1BCCA00B5D1FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A80DA29C1BCCA00B5D1FF /* ContentView.swift */; };
+		637A80DD29C1BCCA00B5D1FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637A80DC29C1BCCA00B5D1FF /* Assets.xcassets */; };
+		637A80E029C1BCCA00B5D1FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637A80DF29C1BCCA00B5D1FF /* Preview Assets.xcassets */; };
+		637A80EA29C1BCCB00B5D1FF /* HueShiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A80E929C1BCCB00B5D1FF /* HueShiftTests.swift */; };
+		637A80F429C1BCCB00B5D1FF /* HueShiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A80F329C1BCCB00B5D1FF /* HueShiftUITests.swift */; };
+		637A80F629C1BCCB00B5D1FF /* HueShiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A80F529C1BCCB00B5D1FF /* HueShiftUITestsLaunchTests.swift */; };
+		637A810329C1BDB100B5D1FF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A810229C1BDB100B5D1FF /* ImagePicker.swift */; };
+		637A810729C1C0BE00B5D1FF /* DotMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A810629C1C0BE00B5D1FF /* DotMatrix.swift */; };
+		637A810929C1C5B600B5D1FF /* ImageEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A810829C1C5B600B5D1FF /* ImageEditorView.swift */; };
+		637A810D29C1D49C00B5D1FF /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A810C29C1D49C00B5D1FF /* ImageSaver.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		637A80E629C1BCCB00B5D1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637A80CD29C1BCCA00B5D1FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637A80D429C1BCCA00B5D1FF;
+			remoteInfo = HueShift;
+		};
+		637A80F029C1BCCB00B5D1FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 637A80CD29C1BCCA00B5D1FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 637A80D429C1BCCA00B5D1FF;
+			remoteInfo = HueShift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		637A80D529C1BCCA00B5D1FF /* HueShift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueShift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A80D829C1BCCA00B5D1FF /* HueShiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueShiftApp.swift; sourceTree = "<group>"; };
+		637A80DA29C1BCCA00B5D1FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		637A80DC29C1BCCA00B5D1FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		637A80DF29C1BCCA00B5D1FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		637A80E529C1BCCB00B5D1FF /* HueShiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HueShiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A80E929C1BCCB00B5D1FF /* HueShiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueShiftTests.swift; sourceTree = "<group>"; };
+		637A80EF29C1BCCB00B5D1FF /* HueShiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HueShiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		637A80F329C1BCCB00B5D1FF /* HueShiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueShiftUITests.swift; sourceTree = "<group>"; };
+		637A80F529C1BCCB00B5D1FF /* HueShiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueShiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		637A810229C1BDB100B5D1FF /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		637A810629C1C0BE00B5D1FF /* DotMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotMatrix.swift; sourceTree = "<group>"; };
+		637A810829C1C5B600B5D1FF /* ImageEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorView.swift; sourceTree = "<group>"; };
+		637A810C29C1D49C00B5D1FF /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637A80D229C1BCCA00B5D1FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A80E229C1BCCB00B5D1FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A80EC29C1BCCB00B5D1FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		637A80CC29C1BCCA00B5D1FF = {
+			isa = PBXGroup;
+			children = (
+				637A80D729C1BCCA00B5D1FF /* HueShift */,
+				637A80E829C1BCCB00B5D1FF /* HueShiftTests */,
+				637A80F229C1BCCB00B5D1FF /* HueShiftUITests */,
+				637A80D629C1BCCA00B5D1FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		637A80D629C1BCCA00B5D1FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637A80D529C1BCCA00B5D1FF /* HueShift.app */,
+				637A80E529C1BCCB00B5D1FF /* HueShiftTests.xctest */,
+				637A80EF29C1BCCB00B5D1FF /* HueShiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637A80D729C1BCCA00B5D1FF /* HueShift */ = {
+			isa = PBXGroup;
+			children = (
+				637A80D829C1BCCA00B5D1FF /* HueShiftApp.swift */,
+				637A810829C1C5B600B5D1FF /* ImageEditorView.swift */,
+				637A80DA29C1BCCA00B5D1FF /* ContentView.swift */,
+				637A810C29C1D49C00B5D1FF /* ImageSaver.swift */,
+				637A810629C1C0BE00B5D1FF /* DotMatrix.swift */,
+				637A810229C1BDB100B5D1FF /* ImagePicker.swift */,
+				637A80DC29C1BCCA00B5D1FF /* Assets.xcassets */,
+				637A80DE29C1BCCA00B5D1FF /* Preview Content */,
+			);
+			path = HueShift;
+			sourceTree = "<group>";
+		};
+		637A80DE29C1BCCA00B5D1FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				637A80DF29C1BCCA00B5D1FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		637A80E829C1BCCB00B5D1FF /* HueShiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				637A80E929C1BCCB00B5D1FF /* HueShiftTests.swift */,
+			);
+			path = HueShiftTests;
+			sourceTree = "<group>";
+		};
+		637A80F229C1BCCB00B5D1FF /* HueShiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				637A80F329C1BCCB00B5D1FF /* HueShiftUITests.swift */,
+				637A80F529C1BCCB00B5D1FF /* HueShiftUITestsLaunchTests.swift */,
+			);
+			path = HueShiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637A80D429C1BCCA00B5D1FF /* HueShift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A80F929C1BCCB00B5D1FF /* Build configuration list for PBXNativeTarget "HueShift" */;
+			buildPhases = (
+				637A80D129C1BCCA00B5D1FF /* Sources */,
+				637A80D229C1BCCA00B5D1FF /* Frameworks */,
+				637A80D329C1BCCA00B5D1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HueShift;
+			productName = HueShift;
+			productReference = 637A80D529C1BCCA00B5D1FF /* HueShift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		637A80E429C1BCCB00B5D1FF /* HueShiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A80FC29C1BCCB00B5D1FF /* Build configuration list for PBXNativeTarget "HueShiftTests" */;
+			buildPhases = (
+				637A80E129C1BCCB00B5D1FF /* Sources */,
+				637A80E229C1BCCB00B5D1FF /* Frameworks */,
+				637A80E329C1BCCB00B5D1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637A80E729C1BCCB00B5D1FF /* PBXTargetDependency */,
+			);
+			name = HueShiftTests;
+			productName = HueShiftTests;
+			productReference = 637A80E529C1BCCB00B5D1FF /* HueShiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		637A80EE29C1BCCB00B5D1FF /* HueShiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637A80FF29C1BCCB00B5D1FF /* Build configuration list for PBXNativeTarget "HueShiftUITests" */;
+			buildPhases = (
+				637A80EB29C1BCCB00B5D1FF /* Sources */,
+				637A80EC29C1BCCB00B5D1FF /* Frameworks */,
+				637A80ED29C1BCCB00B5D1FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637A80F129C1BCCB00B5D1FF /* PBXTargetDependency */,
+			);
+			name = HueShiftUITests;
+			productName = HueShiftUITests;
+			productReference = 637A80EF29C1BCCB00B5D1FF /* HueShiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637A80CD29C1BCCA00B5D1FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					637A80D429C1BCCA00B5D1FF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					637A80E429C1BCCB00B5D1FF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 637A80D429C1BCCA00B5D1FF;
+					};
+					637A80EE29C1BCCB00B5D1FF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 637A80D429C1BCCA00B5D1FF;
+					};
+				};
+			};
+			buildConfigurationList = 637A80D029C1BCCA00B5D1FF /* Build configuration list for PBXProject "HueShift" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637A80CC29C1BCCA00B5D1FF;
+			productRefGroup = 637A80D629C1BCCA00B5D1FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637A80D429C1BCCA00B5D1FF /* HueShift */,
+				637A80E429C1BCCB00B5D1FF /* HueShiftTests */,
+				637A80EE29C1BCCB00B5D1FF /* HueShiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637A80D329C1BCCA00B5D1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A80E029C1BCCA00B5D1FF /* Preview Assets.xcassets in Resources */,
+				637A80DD29C1BCCA00B5D1FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A80E329C1BCCB00B5D1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A80ED29C1BCCB00B5D1FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637A80D129C1BCCA00B5D1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A810329C1BDB100B5D1FF /* ImagePicker.swift in Sources */,
+				637A810D29C1D49C00B5D1FF /* ImageSaver.swift in Sources */,
+				637A80DB29C1BCCA00B5D1FF /* ContentView.swift in Sources */,
+				637A810729C1C0BE00B5D1FF /* DotMatrix.swift in Sources */,
+				637A80D929C1BCCA00B5D1FF /* HueShiftApp.swift in Sources */,
+				637A810929C1C5B600B5D1FF /* ImageEditorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A80E129C1BCCB00B5D1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A80EA29C1BCCB00B5D1FF /* HueShiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		637A80EB29C1BCCB00B5D1FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A80F629C1BCCB00B5D1FF /* HueShiftUITestsLaunchTests.swift in Sources */,
+				637A80F429C1BCCB00B5D1FF /* HueShiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		637A80E729C1BCCB00B5D1FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637A80D429C1BCCA00B5D1FF /* HueShift */;
+			targetProxy = 637A80E629C1BCCB00B5D1FF /* PBXContainerItemProxy */;
+		};
+		637A80F129C1BCCB00B5D1FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 637A80D429C1BCCA00B5D1FF /* HueShift */;
+			targetProxy = 637A80F029C1BCCB00B5D1FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		637A80F729C1BCCB00B5D1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		637A80F829C1BCCB00B5D1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637A80FA29C1BCCB00B5D1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HueShift/Preview Content\"";
+				DEVELOPMENT_TEAM = 4TA6LCU742;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(The app uses the camera to allow the user to take a photo to adjust its hue and brightness.)";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(The app allows the user to select a photo from their photo library to make adjustments to.)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mclean.HueShift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		637A80FB29C1BCCB00B5D1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HueShift/Preview Content\"";
+				DEVELOPMENT_TEAM = 4TA6LCU742;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "$(The app uses the camera to allow the user to take a photo to adjust its hue and brightness.)";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(The app allows the user to select a photo from their photo library to make adjustments to.)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mclean.HueShift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		637A80FD29C1BCCB00B5D1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mclean.HueShiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HueShift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HueShift";
+			};
+			name = Debug;
+		};
+		637A80FE29C1BCCB00B5D1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mclean.HueShiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HueShift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HueShift";
+			};
+			name = Release;
+		};
+		637A810029C1BCCB00B5D1FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mclean.HueShiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HueShift;
+			};
+			name = Debug;
+		};
+		637A810129C1BCCB00B5D1FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mclean.HueShiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HueShift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637A80D029C1BCCA00B5D1FF /* Build configuration list for PBXProject "HueShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A80F729C1BCCB00B5D1FF /* Debug */,
+				637A80F829C1BCCB00B5D1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A80F929C1BCCB00B5D1FF /* Build configuration list for PBXNativeTarget "HueShift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A80FA29C1BCCB00B5D1FF /* Debug */,
+				637A80FB29C1BCCB00B5D1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A80FC29C1BCCB00B5D1FF /* Build configuration list for PBXNativeTarget "HueShiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A80FD29C1BCCB00B5D1FF /* Debug */,
+				637A80FE29C1BCCB00B5D1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637A80FF29C1BCCB00B5D1FF /* Build configuration list for PBXNativeTarget "HueShiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637A810029C1BCCB00B5D1FF /* Debug */,
+				637A810129C1BCCB00B5D1FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637A80CD29C1BCCA00B5D1FF /* Project object */;
+}
